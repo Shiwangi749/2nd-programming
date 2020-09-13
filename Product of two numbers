@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	float a , b , mult;
+	cout<<"Enter a and b \n";
+	cin>>a>>b;
+	mult = a*b;
+	cout<<"Product = "<<mult<<"\n";
+	return 0;
+	
+}
