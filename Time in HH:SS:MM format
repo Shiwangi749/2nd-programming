@@ -1,0 +1,30 @@
+#include<iostream>
+using namespace std;
+class Time
+{
+public:
+	int hour;
+	int min;
+	int sec;
+	int total;
+	
+};
+int main()
+{
+	Time H;
+	Time M;
+	Time S;
+	Time T;
+	cout<<"Enter time:"<<endl;
+	cout<<"Hours? ";
+	cin>>H.hour;
+	cout<<"Minutes? ";
+	cin>>M.min;
+	cout<<"Seconds? ";
+	cin>>S.sec;
+	cout<<"The time is = "<<H.hour<< ":" <<M.min<< ":" <<S.sec<<endl;
+	T.total=H.hour*3600+M.min*60+S.sec;
+	cout<<"Time in total seconds: "<<T.total<<endl;
+	return 0;
+	
+}
